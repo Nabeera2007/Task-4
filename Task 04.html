@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Victoria's Journal</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: lightgray;
+      margin: 0;
+      padding: 0;
+    }
+
+    #container {
+      width: 800px;
+      background-color: white;
+      margin: 30px auto;
+      border: 1px solid gray;
+      padding: 20px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+
+    header {
+      text-align: right;
+      border-bottom: 2px solid silver;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      color: teal;
+      margin: 0;
+      font-family: "Trebuchet MS", sans-serif;
+    }
+
+    header .tagline {
+      font-style: italic;
+      color: dimgray;
+      margin: 0;
+    }
+
+    #main-content {
+      display: flex;
+    }
+
+    #sidebar {
+      width: 25%;
+      background-color: powderblue;
+      padding: 10px;
+      border: 1px solid darkgray;
+      margin-right: 20px;
+    }
+
+    #sidebar h3 {
+      background-color: mediumturquoise;
+      color: white;
+      text-align: center;
+      padding: 5px;
+      font-weight: bold;
+      margin: 0 0 10px 0;
+    }
+
+    #sidebar ul {
+      list-style-type: square;
+      padding-left: 20px;
+      color: black;
+    }
+
+    #journal {
+      width: 70%;
+    }
+
+    .entry {
+      background-color: honeydew;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid darkgray;
+    }
+
+    .entry h2 {
+      color: darkcyan;
+      font-size: 1.1em;
+      margin-bottom: 10px;
+    }
+
+    .entry img {
+      float: right;
+      width: 120px;
+      border: 1px solid gray;
+      margin-left: 10px;
+    }
+
+    .entry p {
+      font-size: 0.9em;
+      color: dimgray;
+      text-align: justify;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="container">
+    <header>
+      <h1>Nabeera's Journal</h1>
+      <p class="tagline">So fresh and so clean</p>
+    </header>
+
+   <div id="main-content">
+     <aside id="sidebar">
+       <h3>Friends</h3>
+        <ul>
+          <li>Mahnoor</li>
+          <li>Arooj</li>
+          <li>Esha</li>
+        </ul>
+      </aside>
+
+      <section id="journal">
+        <article class="entry">
+          <h2>04/09/08: Spatulas</h2>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Spatula.jpg" alt="Spatula">
+          <p>Today I went to a store and got some kitchenware — spatulas! Just before buying, I realized how much fun it is to buy myself a spatula :)</p>
+        </article>
+
+        <article class="entry">
+          <h2>04/08/08: Cookie Cupcakes</h2>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Cupcakes.jpg" alt="Cookie Cupcakes">
+          <p>Made my first batch of cookie cupcakes today! Perfect combination of cookie dough and cupcake. Delicious and fun to bake. Didn’t even burn one!</p>
+        </article>
+      </section>
+    </div>
+  </div>
+
+</body>
+</html>
